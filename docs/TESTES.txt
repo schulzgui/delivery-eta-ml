@@ -1,0 +1,20 @@
+Avaliação sintética salva em artifacts/metrics.json
+
+Avaliação sintética salva em /var/folders/jw/qcz85hz17kgd_qry6ryqkypr0000gn/T/tmp61wmbj8l/artifacts/metrics.json
+Avaliação sintética salva em /var/folders/jw/qcz85hz17kgd_qry6ryqkypr0000gn/T/tmp61wmbj8l/artifacts/metrics.json
+test_beats_baseline (test_domain.MLTests) ... ok
+test_conformal_order_statistic (test_domain.MLTests) ... ok
+test_determinism (test_domain.MLTests) ... ok
+test_drift (test_domain.MLTests) ... ok
+test_nan_rejected (test_domain.MLTests) ... ok
+test_recovers_linear_function (test_domain.MLTests) ... ok
+test_temporal_test_not_used_for_fit (test_domain.MLTests) ... ok
+test_reproducible_pipeline_and_api (test_integration.IntegrationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.691s
+
+OK
+
+Avaliação sintética salva em artifacts/metrics.json
+Dados idênticos e métricas reproduzidas (tolerância 1e-10).

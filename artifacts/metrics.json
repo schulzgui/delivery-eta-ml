@@ -1,0 +1,104 @@
+{
+  "conformal": {
+    "caveat": "Cobertura nominal exige permutabilidade; mudança temporal viola essa hipótese. PSI não detecta sozinho mudança em P(y|x).",
+    "feature_psi": {
+      "backlog": 0.01971902756914977,
+      "distance_km": 0.01985614616009161,
+      "peak": 0.0018979856368175813,
+      "prep_minutes": 0.009168125221494633,
+      "rain": 0.000774903720375188
+    },
+    "mean_interval_width_minutes": 12.586921484685078,
+    "model": {
+      "alpha": 1,
+      "features": [
+        "distance_km",
+        "prep_minutes",
+        "rain",
+        "peak",
+        "backlog"
+      ],
+      "means": [
+        6.251159722222222,
+        20.70602083333329,
+        0.24583333333333332,
+        0.40208333333333335,
+        4.040277777777778
+      ],
+      "scales": [
+        3.256718948239491,
+        8.080514890917764,
+        0.43058019642750905,
+        0.4903185968213824,
+        2.565755234397759
+      ],
+      "weights": [
+        43.76086111111106,
+        7.758036604898106,
+        6.949476695683602,
+        1.9885005324614826,
+        1.853932406363446,
+        3.036120654733374
+      ]
+    },
+    "nominal_coverage": 0.9,
+    "radius_minutes": 6.293460742342539,
+    "test": {
+      "mae_minutes": 3.357789612874481,
+      "n": 480,
+      "p90_absolute_error_minutes": 6.828702849700484,
+      "rmse_minutes": 4.170458878040369
+    },
+    "test_coverage": 0.8666666666666667
+  },
+  "eta": {
+    "baseline_test": {
+      "mae_minutes": 9.507693489583321,
+      "n": 480,
+      "p90_absolute_error_minutes": 19.42393750000002,
+      "rmse_minutes": 11.765901827143958
+    },
+    "selected_alpha": 0.01,
+    "slices": {
+      "peak=0": {
+        "mae_minutes": 3.2112654398521374,
+        "n": 295,
+        "p90_absolute_error_minutes": 6.629225594491693,
+        "rmse_minutes": 3.9904280690986687
+      },
+      "peak=1": {
+        "mae_minutes": 3.5245843450462897,
+        "n": 185,
+        "p90_absolute_error_minutes": 7.0889539521393345,
+        "rmse_minutes": 4.375046522020152
+      },
+      "rain=0": {
+        "mae_minutes": 3.363263108882806,
+        "n": 363,
+        "p90_absolute_error_minutes": 6.827307490581724,
+        "rmse_minutes": 4.1881354410365494
+      },
+      "rain=1": {
+        "mae_minutes": 3.2351017099614037,
+        "n": 117,
+        "p90_absolute_error_minutes": 6.670834456485714,
+        "rmse_minutes": 3.999288952759933
+      }
+    },
+    "split": "temporal 60/20/20; refit em 80% após seleção",
+    "test": {
+      "mae_minutes": 3.3320237678957136,
+      "n": 480,
+      "p90_absolute_error_minutes": 6.8188746316828315,
+      "rmse_minutes": 4.142897588152731
+    },
+    "validation_mae_by_alpha": {
+      "0.01": 2.99409267382561,
+      "1": 2.9943316713505155,
+      "10": 2.997153177297524,
+      "100": 3.0867785021999845
+    }
+  },
+  "seed": 42,
+  "synthetic": true
+}

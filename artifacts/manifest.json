@@ -1,0 +1,15 @@
+{
+  "python": "3.10.4",
+  "seed": 42,
+  "sha256": {
+    "data/README.md": "dcf41d73464f662affb248802aac8d9f1ffd8831c07679ea628ea074c14ccd73",
+    "data/orders.csv": "180b44a60c05537e29c6d1618b8c11f298831acbcadb0fafd3fedea4acad4e72",
+    "src/eta_lab/__init__.py": "92e85fe42d7e76558a717c3a8d42d4a9c4e5d4bacc2ab32b108d84a56cdd50e9",
+    "src/eta_lab/cli.py": "dac5319d13752f4e942ed90075a4ba0c0cef50f08dac648083c7215c1124ff14",
+    "src/eta_lab/data.py": "0015af5d55e14d774f4740dbd71959f46eb71bd0754a56435b2e8475d1740b56",
+    "src/eta_lab/eta.py": "50eafb3c747d0567043ab4ed822685585d6516070c36f308b1e0b661c3b23734",
+    "src/eta_lab/monitoring.py": "d15e1c67bd91118d83c61ea9e4685cec084939f88556c213a530cce0c1ed60e7",
+    "src/eta_lab/server.py": "726df681e99e5dec78b36d5d68464cd16d62a268b309fc8513ba9f73dad175a3"
+  },
+  "synthetic": true
+}

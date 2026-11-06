@@ -1,0 +1,23 @@
+name: Testes e reprodução
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.10', '3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Testes de domínio e HTTP
+        run: PYTHONPATH=src python -m unittest discover -s tests -v
+      - name: Comparar resultados versionados
+        run: PYTHONPATH=src python scripts/verify_reproduction.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: evidencias-${{ matrix.python }}
+          path: artifacts/*.json

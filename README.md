@@ -4,7 +4,7 @@
 
 Guilherme Schulz · Portfólio técnico independente · Python 3.10+ · Licença MIT
 
-> Todos os dados e políticas são sintéticos. Não há vínculo com o iFood, implantação empresarial ou impacto comercial medido. Projeto desenvolvido com assistência de IA; implementação, testes e limitações estão disponíveis para revisão.
+> Todos os dados e políticas são sintéticos. Não há vínculo com o iFood, implantação empresarial ou impacto comercial medido.
 
 ## Problema e objetivo
 
